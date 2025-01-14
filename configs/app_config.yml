@@ -1,0 +1,38 @@
+app:
+  name: OmniLens AI
+  version: 1.0.0
+  debug_mode: false
+
+gui:
+  theme: dark
+  language: en
+  window_size: [1280, 720]
+  max_recent_files: 10
+
+processing:
+  default_image_size: [800, 600]
+  max_threads: 4
+  default_quality: 95
+  supported_formats: [jpg, png, tiff, webp]
+
+logging:
+  level: INFO
+  file: logs/app.log
+  max_size: 5MB
+  backup_count: 3
+
+performance:
+  use_gpu: true
+  batch_size: 32
+
+updates:
+  check_for_updates: true
+  update_channel: stable
+
+privacy:
+  telemetry_enabled: false
+  data_retention_days: 30
+
+collaboration:
+  max_simultaneous_users: 5
+  session_timeout_minutes: 60

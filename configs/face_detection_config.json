@@ -1,0 +1,43 @@
+{
+  "detection": {
+    "model": {
+      "path": "models/face_detection/haarcascade_frontalface_default.xml",
+      "scale_factor": 1.1,
+      "min_neighbors": 4,
+      "min_size": [30, 30],
+      "max_size": [300, 300]
+    },
+    "use_gpu": true
+  },
+  "recognition": {
+    "enabled": true,
+    "model_path": "models/face_recognition/face_recognition_model.pkl",
+    "confidence_threshold": 0.6,
+    "database_path": "data/face_database.json",
+    "max_faces_per_image": 10
+  },
+  "landmarks": {
+    "enabled": true,
+    "model_path": "models/face_landmarks/shape_predictor_68_face_landmarks.dat"
+  },
+  "emotion_detection": {
+    "enabled": true,
+    "model_path": "models/emotion_detection/emotion_model.h5",
+    "emotions": ["Angry", "Disgust", "Fear", "Happy", "Sad", "Surprise", "Neutral"]
+  },
+  "age_gender_detection": {
+    "enabled": true,
+    "age_model_path": "models/age_gender/age_net.caffemodel",
+    "gender_model_path": "models/age_gender/gender_net.caffemodel"
+  },
+  "face_tracking": {
+    "enabled": true,
+    "max_disappeared": 30,
+    "max_distance": 50
+  },
+  "processing": {
+    "face_alignment": true,
+    "face_normalization": true,
+    "histogram_equalization": true
+  }
+}

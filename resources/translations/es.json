@@ -1,0 +1,97 @@
+{
+  "app_name": "OmniLens AI",
+  "file": {
+    "menu": "Archivo",
+    "open": "Abrir",
+    "save": "Guardar",
+    "save_as": "Guardar como",
+    "export": "Exportar",
+    "close": "Cerrar"
+  },
+  "edit": {
+    "menu": "Editar",
+    "undo": "Deshacer",
+    "redo": "Rehacer",
+    "cut": "Cortar",
+    "copy": "Copiar",
+    "paste": "Pegar"
+  },
+  "view": {
+    "menu": "Ver",
+    "zoom_in": "Acercar",
+    "zoom_out": "Alejar",
+    "fit_to_screen": "Ajustar a la pantalla",
+    "actual_size": "Tamaño real"
+  },
+  "tools": {
+    "menu": "Herramientas",
+    "select": "Seleccionar",
+    "pan": "Panorámica",
+    "zoom": "Zoom",
+    "brush": "Pincel",
+    "eraser": "Borrador",
+    "crop": "Recortar",
+    "rotate": "Rotar"
+  },
+  "filters": {
+    "menu": "Filtros",
+    "brightness": "Brillo",
+    "contrast": "Contraste",
+    "saturation": "Saturación",
+    "gaussian_blur": "Desenfoque gaussiano",
+    "sharpen": "Enfocar",
+    "edge_detection": "Detección de bordes"
+  },
+  "ai_features": {
+    "menu": "Funciones de IA",
+    "object_detection": "Detección de objetos",
+    "face_detection": "Detección de rostros",
+    "auto_enhance": "Mejora automática",
+    "style_transfer": "Transferencia de estilo",
+    "background_removal": "Eliminación de fondo"
+  },
+  "cloud": {
+    "menu": "Nube",
+    "upload": "Subir",
+    "download": "Descargar",
+    "sync": "Sincronizar"
+  },
+  "collaboration": {
+    "menu": "Colaboración",
+    "start_session": "Iniciar sesión",
+    "join_session": "Unirse a la sesión",
+    "end_session": "Finalizar sesión"
+  },
+  "settings": {
+    "menu": "Configuración",
+    "preferences": "Preferencias",
+    "language": "Idioma",
+    "theme": "Tema",
+    "advanced": "Avanzado"
+  },
+  "help": {
+    "menu": "Ayuda",
+    "documentation": "Documentación",
+    "about": "Acerca de",
+    "check_updates": "Buscar actualizaciones"
+  },
+  "dialogs": {
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "apply": "Aplicar",
+    "reset": "Restablecer"
+  },
+  "tooltips": {
+    "brush_size": "Tamaño del pincel",
+    "opacity": "Opacidad",
+    "filter_strength": "Intensidad del filtro"
+  },
+  "status": {
+    "processing": "Procesando...",
+    "ready": "Listo",
+    "error": "Error",
+    "saved": "Guardado",
+    "uploaded": "Subido",
+    "downloaded": "Descargado"
+  }
+}

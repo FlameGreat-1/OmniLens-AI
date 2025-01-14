@@ -1,0 +1,37 @@
+{
+  "models": {
+    "ssd_mobilenet_v2": {
+      "model_path": "models/object_detection/ssd_mobilenet_v2.pb",
+      "label_map": "models/object_detection/mscoco_label_map.pbtxt",
+      "confidence_threshold": 0.5,
+      "input_size": [300, 300],
+      "max_detections": 100
+    },
+    "yolov4": {
+      "weights_path": "models/object_detection/yolov4.weights",
+      "config_path": "models/object_detection/yolov4.cfg",
+      "confidence_threshold": 0.5,
+      "nms_threshold": 0.4,
+      "input_size": [416, 416],
+      "max_detections": 100
+    },
+    "faster_rcnn": {
+      "model_path": "models/object_detection/faster_rcnn_inception_v2.pb",
+      "label_map": "models/object_detection/mscoco_label_map.pbtxt",
+      "confidence_threshold": 0.7,
+      "input_size": [600, 600],
+      "max_detections": 100
+    }
+  },
+  "default_model": "ssd_mobilenet_v2",
+  "gpu_support": true,
+  "batch_processing": true,
+  "max_batch_size": 16,
+  "allow_model_switching": true,
+  "custom_classes": [
+    {"id": 1, "name": "person"},
+    {"id": 2, "name": "car"},
+    {"id": 3, "name": "dog"},
+    {"id": 4, "name": "cat"}
+  ]
+}

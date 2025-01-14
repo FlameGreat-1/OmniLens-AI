@@ -1,0 +1,46 @@
+{
+  "twitter": {
+    "enabled": true,
+    "consumer_key": "YOUR_TWITTER_CONSUMER_KEY",
+    "consumer_secret": "YOUR_TWITTER_CONSUMER_SECRET",
+    "access_token": "YOUR_TWITTER_ACCESS_TOKEN",
+    "access_token_secret": "YOUR_TWITTER_ACCESS_TOKEN_SECRET",
+    "tweet_char_limit": 280,
+    "media_upload_limit_mb": 5
+  },
+  "facebook": {
+    "enabled": true,
+    "app_id": "YOUR_FACEBOOK_APP_ID",
+    "app_secret": "YOUR_FACEBOOK_APP_SECRET",
+    "page_id": "YOUR_FACEBOOK_PAGE_ID",
+    "access_token": "YOUR_FACEBOOK_ACCESS_TOKEN",
+    "media_upload_limit_mb": 25
+  },
+  "instagram": {
+    "enabled": true,
+    "username": "YOUR_INSTAGRAM_USERNAME",
+    "password": "YOUR_INSTAGRAM_PASSWORD",
+    "business_account_id": "YOUR_INSTAGRAM_BUSINESS_ACCOUNT_ID",
+    "media_upload_limit_mb": 8
+  },
+  "linkedin": {
+    "enabled": false,
+    "client_id": "YOUR_LINKEDIN_CLIENT_ID",
+    "client_secret": "YOUR_LINKEDIN_CLIENT_SECRET",
+    "access_token": "YOUR_LINKEDIN_ACCESS_TOKEN"
+  },
+  "general": {
+    "auto_post": false,
+    "default_platforms": ["twitter", "facebook"],
+    "max_retries": 3,
+    "retry_delay_seconds": 60,
+    "hashtags": ["OmniLensAI", "ComputerVision"],
+    "watermark": {
+      "enabled": true,
+      "text": "Processed with OmniLens AI",
+      "position": "bottom-right",
+      "font_size": 12,
+      "font_color": [255, 255, 255, 128]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "aws": {
+    "enabled": true,
+    "region": "us-west-2",
+    "s3_bucket": "omnilens-ai-storage",
+    "access_key_id": "YOUR_AWS_ACCESS_KEY_ID",
+    "secret_access_key": "YOUR_AWS_SECRET_ACCESS_KEY",
+    "use_iam_role": false,
+    "endpoint_url": null
+  },
+  "google_cloud": {
+    "enabled": true,
+    "project_id": "omnilens-ai-project",
+    "storage_bucket": "omnilens-ai-storage",
+    "credentials_file": "path/to/google_cloud_credentials.json",
+    "use_default_credentials": false
+  },
+  "azure": {
+    "enabled": true,
+    "account_name": "omnilensaistorage",
+    "account_key": "YOUR_AZURE_ACCOUNT_KEY",
+    "container_name": "images",
+    "connection_string": "YOUR_AZURE_CONNECTION_STRING"
+  },
+  "general": {
+    "default_provider": "aws",
+    "auto_sync": true,
+    "sync_interval_minutes": 60,
+    "max_file_size_mb": 100,
+    "allowed_file_types": [".jpg", ".png", ".tiff", ".bmp"],
+    "encryption": {
+      "enabled": true,
+      "algorithm": "AES-256"
+    }
+  }
+}

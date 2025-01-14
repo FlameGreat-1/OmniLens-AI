@@ -1,0 +1,97 @@
+{
+  "app_name": "OmniLens AI",
+  "file": {
+    "menu": "Datei",
+    "open": "Öffnen",
+    "save": "Speichern",
+    "save_as": "Speichern unter",
+    "export": "Exportieren",
+    "close": "Schließen"
+  },
+  "edit": {
+    "menu": "Bearbeiten",
+    "undo": "Rückgängig",
+    "redo": "Wiederholen",
+    "cut": "Ausschneiden",
+    "copy": "Kopieren",
+    "paste": "Einfügen"
+  },
+  "view": {
+    "menu": "Ansicht",
+    "zoom_in": "Vergrößern",
+    "zoom_out": "Verkleinern",
+    "fit_to_screen": "An Bildschirm anpassen",
+    "actual_size": "Originalgröße"
+  },
+  "tools": {
+    "menu": "Werkzeuge",
+    "select": "Auswählen",
+    "pan": "Verschieben",
+    "zoom": "Zoom",
+    "brush": "Pinsel",
+    "eraser": "Radiergummi",
+    "crop": "Zuschneiden",
+    "rotate": "Drehen"
+  },
+  "filters": {
+    "menu": "Filter",
+    "brightness": "Helligkeit",
+    "contrast": "Kontrast",
+    "saturation": "Sättigung",
+    "gaussian_blur": "Gaußscher Weichzeichner",
+    "sharpen": "Schärfen",
+    "edge_detection": "Kantenerkennung"
+  },
+  "ai_features": {
+    "menu": "KI-Funktionen",
+    "object_detection": "Objekterkennung",
+    "face_detection": "Gesichtserkennung",
+    "auto_enhance": "Automatische Verbesserung",
+    "style_transfer": "Stiltransfer",
+    "background_removal": "Hintergrundentfernung"
+  },
+  "cloud": {
+    "menu": "Cloud",
+    "upload": "Hochladen",
+    "download": "Herunterladen",
+    "sync": "Synchronisieren"
+  },
+  "collaboration": {
+    "menu": "Zusammenarbeit",
+    "start_session": "Sitzung starten",
+    "join_session": "Sitzung beitreten",
+    "end_session": "Sitzung beenden"
+  },
+  "settings": {
+    "menu": "Einstellungen",
+    "preferences": "Präferenzen",
+    "language": "Sprache",
+    "theme": "Thema",
+    "advanced": "Erweitert"
+  },
+  "help": {
+    "menu": "Hilfe",
+    "documentation": "Dokumentation",
+    "about": "Über",
+    "check_updates": "Nach Updates suchen"
+  },
+  "dialogs": {
+    "confirm": "Bestätigen",
+    "cancel": "Abbrechen",
+    "apply": "Anwenden",
+    "reset": "Zurücksetzen"
+  },
+  "tooltips": {
+    "brush_size": "Pinselgröße",
+    "opacity": "Deckkraft",
+    "filter_strength": "Filterstärke"
+  },
+  "status": {
+    "processing": "Verarbeitung...",
+    "ready": "Bereit",
+    "error": "Fehler",
+    "saved": "Gespeichert",
+    "uploaded": "Hochgeladen",
+    "downloaded": "Heruntergeladen"
+  }
+}

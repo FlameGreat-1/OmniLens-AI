@@ -1,0 +1,97 @@
+{
+  "app_name": "OmniLens AI",
+  "file": {
+    "menu": "File",
+    "open": "Open",
+    "save": "Save",
+    "save_as": "Save As",
+    "export": "Export",
+    "close": "Close"
+  },
+  "edit": {
+    "menu": "Edit",
+    "undo": "Undo",
+    "redo": "Redo",
+    "cut": "Cut",
+    "copy": "Copy",
+    "paste": "Paste"
+  },
+  "view": {
+    "menu": "View",
+    "zoom_in": "Zoom In",
+    "zoom_out": "Zoom Out",
+    "fit_to_screen": "Fit to Screen",
+    "actual_size": "Actual Size"
+  },
+  "tools": {
+    "menu": "Tools",
+    "select": "Select",
+    "pan": "Pan",
+    "zoom": "Zoom",
+    "brush": "Brush",
+    "eraser": "Eraser",
+    "crop": "Crop",
+    "rotate": "Rotate"
+  },
+  "filters": {
+    "menu": "Filters",
+    "brightness": "Brightness",
+    "contrast": "Contrast",
+    "saturation": "Saturation",
+    "gaussian_blur": "Gaussian Blur",
+    "sharpen": "Sharpen",
+    "edge_detection": "Edge Detection"
+  },
+  "ai_features": {
+    "menu": "AI Features",
+    "object_detection": "Object Detection",
+    "face_detection": "Face Detection",
+    "auto_enhance": "Auto Enhance",
+    "style_transfer": "Style Transfer",
+    "background_removal": "Background Removal"
+  },
+  "cloud": {
+    "menu": "Cloud",
+    "upload": "Upload",
+    "download": "Download",
+    "sync": "Sync"
+  },
+  "collaboration": {
+    "menu": "Collaboration",
+    "start_session": "Start Session",
+    "join_session": "Join Session",
+    "end_session": "End Session"
+  },
+  "settings": {
+    "menu": "Settings",
+    "preferences": "Preferences",
+    "language": "Language",
+    "theme": "Theme",
+    "advanced": "Advanced"
+  },
+  "help": {
+    "menu": "Help",
+    "documentation": "Documentation",
+    "about": "About",
+    "check_updates": "Check for Updates"
+  },
+  "dialogs": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "apply": "Apply",
+    "reset": "Reset"
+  },
+  "tooltips": {
+    "brush_size": "Brush Size",
+    "opacity": "Opacity",
+    "filter_strength": "Filter Strength"
+  },
+  "status": {
+    "processing": "Processing...",
+    "ready": "Ready",
+    "error": "Error",
+    "saved": "Saved",
+    "uploaded": "Uploaded",
+    "downloaded": "Downloaded"
+  }
+}
