@@ -170,4 +170,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-For any questions or support, please open an issue on the GitHub repository or contact our support team at support@nebulavisionpro.com.
+For any questions or support, please open an issue on the GitHub repository or contact our support team at support@OmniLensAI.com.
